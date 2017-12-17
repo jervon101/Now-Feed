@@ -7,22 +7,34 @@
     android:orientation="vertical"
     tools:context="nyc.c4q.nowfeed.MainActivity">
 
-    <TextView
+
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="100dp" />
+        android:layout_height="wrap_content"
 
-    <android.support.v7.widget.RecyclerView
-       android:id="@+id/cycle_spors"
-        android:layout_width="match_parent"
-        android:layout_height="100dp">
+        >
 
-    </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/cycle_t_stuff"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    </LinearLayout>
 
-    </android.support.v7.widget.RecyclerView>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+       <!--android:id="@+id/cycle_spors"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="100dp">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/cycle_t_stuff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
 
 </LinearLayout>
